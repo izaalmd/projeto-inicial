@@ -4,18 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Incial </title>
+    <title>Projeto Inicial </title>
     <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-<body>
+<body class="container-fluid">
     
-    <h1> Projeto Incial </h1>
+    <h1> Projeto Inicial </h1>
     <div>
         <h4>DSA2</h4>
-        <label>Digite seu nome...</label>
-        <input type="text" id="nome" placeholder="Digite seu nome...">
-        <input type="button" id="botao" value="Clique aqui...">
+        <form>
+            
+            
+            <div class="mb-2">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Adalberto Souza">
+
+            </div>
+
+            <div class="mb-2">
+                <label for="email">Email:</label>
+                <input email="text" id="email"
+                 placeholder="email@dominio.com">
+
+            </div>
+
+            <div class="mb-2">
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone"
+                 placeholder="11945498057">
+
+                 </div>
+
+                 <div class="mb-2">
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep"
+                     placeholder="06415-240">
+    
+                     </div>
+
+                     
+                 <div class="mb-2">
+                    <label for="logradouro">logradouro: </label>
+                    <input type="text" id="logradouro"
+                     placeholder="proximo a praça">
+    
+                     </div>
+
+                     
+                 <div class="mb-2">
+                    <label for="numero">número:</label>
+                    <input type="text" id="numero"
+                     placeholder="311">
+    
+                     </div>
+
+                     
+                 <div class="mb-2">
+                    <label for="complemento">Complemento:</label>
+                    <input type="text" id="complemento"
+                     placeholder="casa 2">
+    
+                     </div>
+
+                     
+                 <div class="mb-2">
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" id="bairro"
+                     placeholder="Vila Mariana">
+    
+                     </div>
+
+                     
+                 <div class="mb-2">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade"
+                     placeholder="Barueri">
+    
+                     </div>
+
+                     
+                 <div class="mb-5">
+                    <label for="estado">Estado:</label>
+                    <input type="text" id="estado"
+                     placeholder="São Paulo">
+    
+                     </div>
+
+            <input type="button" id="botao" 
+            class="btn btn-primary" value="Clique aqui...">
+        </form>
+        <div id="saida-de-dados" class="m-1 p-2 text-center">
+            
+        </div>
+
+      
     </div>
     <script src="./scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 </html>
